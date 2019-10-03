@@ -1,3 +1,78 @@
-body{
+
+
+
+#wrapper{
+	width:77%;
+	max-width: 1024px;
+	
+	background-color: whitesmoke;
+	margin-right: auto;
+	margin-left: auto;
+    padding:3%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.logo{
+	width: 11%;
+	padding: 30px;
 
 }
+
+
+body{
+background-image: url(pattern.png);
+font-family: Helvetica, sans serif;
+}
+
+header{
+	padding: 9px;
+     background-image :linear-gradient(to bottom ,#95484B,#af595c,#6f3032);
+}
+
+nav {
+	text-align: center;
+	margin-top: -15px;
+	font-size: 30%;
+}
+
+a{
+	border-color: white;
+	border:solid;
+	border-width: 3px;
+	color: white;
+	text-decoration: none;
+	padding:0.2em;
+	font-size: 20px;
+	background-color: #95484B;
+
+}
+
+.photo{
+	background-image: url(cohort.png);
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+}
+#frame{
+	margin-right: auto;
+	margin-left: auto;
+	height: 470px;
+}
+
+.legend{
+	color: #95484B;
+	font-weight: bold;
+	max-width: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: center;
+}
+
+footer{
+	padding: 1em;
+	text-align: center;
+}
+
+.love{color: deeppink;}
